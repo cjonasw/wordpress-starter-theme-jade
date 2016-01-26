@@ -1,0 +1,12 @@
+extends ./layout
+
+block content
+
+  each post in posts
+    h1
+      a(href= post['permalink'])= post['title']
+    != post['excerpt']
+
+  footer.pagination
+    != previous_posts_link
+    != next_posts_link

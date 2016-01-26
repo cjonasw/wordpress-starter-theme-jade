@@ -1,0 +1,22 @@
+doctype
+html(lang='en')
+
+  head
+    meta(charset="UTF-8")
+    title= wp_title
+    link(rel="stylesheet" type="text/css" href= stylesheet_url media="screen")
+    != wp_head
+
+  body
+
+    header
+      a(href= home_url)= blog_title
+      include ./nav
+
+    block content
+
+    include ./sidebar
+
+    != seperate_jade_render_example
+
+    != wp_footer

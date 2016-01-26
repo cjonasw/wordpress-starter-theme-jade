@@ -1,0 +1,18 @@
+/*
+  Theme Name: cjonasw-Jade-Example
+  Theme URI: https://github.com/cjonasw/
+  Description: cjonasw-Jade-Example
+  Version: 1
+  Author: Charlie Walter
+  Author URI: http://www.charliejwalter.net
+*/
+
+body{
+  background: #00A86B; /* Jade green */
+  color: white;
+}
+
+body:after{
+  content: "Jade";
+  color: yellow;
+}
